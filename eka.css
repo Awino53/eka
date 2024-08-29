@@ -257,7 +257,7 @@ h2{
 .conference img{
     height: 55vh;
 } 
-.heading-package{
+.package{
     padding: 30px;
     text-align: center;
     font-size: large;
@@ -265,10 +265,28 @@ h2{
     background-color: rgb(201, 195, 195);
 }
  
-.linka a{
+.package-link a{
     text-decoration: none;
     color: rgb(181, 164, 8);
 }
-.linka :hover{
+.package-link :hover{
+    cursor: pointer;
+}
+.burger{
+    display: flex;
+    gap: 30px;
+}
+.burger-line{
+    padding-top: 30px;
+}
+.burger-line h2{
+    font-size: 30px;
+    padding: 50px;
+    font-weight: bold;
+}
+.burger-line img{
+
+}
+.burger-line img:hover{
     cursor: pointer;
 }
